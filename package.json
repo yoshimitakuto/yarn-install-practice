@@ -1,0 +1,11 @@
+{
+  "name": "yarn-install-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yoshimitakuto/yarn-install-practice.git",
+  "author": "Yoshimi Takuto <yocchantaku0127@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
