@@ -8,6 +8,26 @@
 <body>
     <h1>テスト</h1>
     <!-- yarnでインストールしたjqueryをnode_modulesから使用するためにscriptタグで読み込みをする -->
+    <!-- バーション管理は「package.json」で管理していく -->
+
+    <!-- 
+    例：コマンドライン
+    yarn list (yarnのリストを表示)
+    yarn remove jquery (jqueryを削除)
+    yarn add jquery@3.5.0 (指定のバージョンをインストール)
+    
+    パターン1
+    yarn (package.jsonで直接バージョンを書き換えた後に実行すると書き換えた内容になる) 
+
+    パターン2
+    yarn upgrade jquery --latest (最新バーションへアップグレード)
+
+    パターン3
+    yarn add jquery@3.5.0 (バージョン変更)
+    yarn add jquery@3.5.1 (バーション変更)
+    -->
+
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script> 
     <script>
         $('h1').css("color", "red");

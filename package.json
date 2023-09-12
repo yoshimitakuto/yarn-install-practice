@@ -6,6 +6,6 @@
   "author": "Yoshimi Takuto <yocchantaku0127@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "3.7.1"
   }
 }
