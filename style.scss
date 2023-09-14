@@ -7,3 +7,9 @@ div {
 }
 
 // style.cssを生成する（sass style.scss:style.css）
+/* mapはデバックをする際に使用する */
+
+
+// ローカルにsassをインストールして開発メンバーと足並みを揃えるのが一般的
+// 1 ローカル環境にsassをインストール（yarn add sass）
+// 2 node_modules/.bin/sassを使用してcssに変換する（node_modules/.bin/sass style.scss:style.css）
