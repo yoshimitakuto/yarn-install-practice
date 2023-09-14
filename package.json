@@ -6,6 +6,8 @@
   "author": "Yoshimi Takuto <yocchantaku0127@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "echo 'スタート！'",
+    "test": "echo 'テスト！'",
     "build:css": "sass style.scss:style.css"
   },
   "dependencies": {
