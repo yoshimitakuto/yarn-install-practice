@@ -26,3 +26,9 @@ div {
 yarn build:css (yarnの場合)
 npm run build:css (npmの場合)
    */
+
+
+/*「node_modulesファイルは共有しない！」
+理由：ファイルが膨大になりgit cloneをする際に重たくなる可能性があるため。
+
+yarnを実行することで、package.jsonを参照し、必要なライブラリを勝手にnode_modulesのディレクトリ内にインストールしてくれる */
