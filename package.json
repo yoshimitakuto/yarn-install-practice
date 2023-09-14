@@ -5,6 +5,9 @@
   "repository": "https://github.com/yoshimitakuto/yarn-install-practice.git",
   "author": "Yoshimi Takuto <yocchantaku0127@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build:css": "sass style.scss:style.css"
+  },
   "dependencies": {
     "jquery": "3.7.1",
     "sass": "^1.67.0"

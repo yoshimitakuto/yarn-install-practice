@@ -10,6 +10,19 @@ div {
 /* mapはデバックをする際に使用する */
 
 
-// ローカルにsassをインストールして開発メンバーと足並みを揃えるのが一般的
-// 1 ローカル環境にsassをインストール（yarn add sass）
-// 2 node_modules/.bin/sassを使用してcssに変換する（node_modules/.bin/sass style.scss:style.css）
+/* ローカルにsassをインストールして開発メンバーと足並みを揃えるのが一般的
+/ 1 ローカル環境にsassをインストール（yarn add sass）
+ 2 node_modules/.bin/sassを使用してcssに変換する（node_modules/.bin/sass style.scss:style.css）*/
+
+
+/* 「npm scripts」
+ "scripts": {
+     "build:css": "sass style.scss:style.css"
+   },
+   こうすることで「build:css」をコマンド入力すると右の「"　"」の中の記述が勝手に実行される！
+   ※ node_modules/.binは勝手に参照されるため記述を省ける 
+   
+「実行コマンド」
+yarn build:css (yarnの場合)
+npm run build:css (npmの場合)
+   */
