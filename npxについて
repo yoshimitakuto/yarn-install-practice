@@ -12,5 +12,4 @@
 ; 「npx」使用
 ; npx create-react-app my-app (インストールすることなくreact-appを作成できる)
 ; ※「create-react-app --version」を使用で確認してもインストールしていないためバージョンが表示されない
-
-
+; npx serveを使用するとサーバーをlocalhost:〇〇〇〇で立ち上げることができる！
