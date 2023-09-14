@@ -1,0 +1,16 @@
+; 結論：
+; グローバルやローカル環境にインストールすることなく実行できるコマンドのこと
+; （npm iでインストールしないため一回限り）
+
+
+; 〜使用例〜
+; 「npm使用」
+; npm i -g create-react-app (グローバル環境にcreate-react-appをインストールして使えるようにする)
+; ※「create-react-app --version」を使用するとバージョンが表示される。
+; create-react-app my-app (react-appを作成)
+
+; 「npx」使用
+; npx create-react-app my-app (インストールすることなくreact-appを作成できる)
+; ※「create-react-app --version」を使用で確認してもインストールしていないためバージョンが表示されない
+
+
