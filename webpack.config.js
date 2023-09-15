@@ -13,4 +13,19 @@ module.exports = {
             directory: path.join(__dirname, "dist"),
           },
     },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                use: [
+                    {
+                        loader: "babel-loader",
+                        option: {
+                            presets: ["@babel/react"],
+                        },
+                    },
+                ],
+            },
+        ],
+    },
 };
