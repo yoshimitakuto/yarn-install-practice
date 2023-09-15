@@ -15,6 +15,15 @@ div h1 {
      "build:css": "sass style.scss:style.css"
    },
    こうすることで「build:css」をコマンド入力すると右の「"　"」の中の記述が勝手に実行される！
-   ※ node_modules/.binは勝手に参照されるため記述を省ける */
+   ※ node_modules/.binは勝手に参照されるため記述を省ける 
+
+「実行コマンド」
+yarn build:css (yarnの場合)
+npm run build:css (npmの場合)
+   */
+/*「node_modulesファイルは共有しない！」
+理由：ファイルが膨大になりgit cloneをする際に重たくなる可能性があるため。
+
+yarnを実行することで、package.jsonを参照し、必要なライブラリを勝手にnode_modulesのディレクトリ内にインストールしてくれる */
 
 /*# sourceMappingURL=style.css.map */
