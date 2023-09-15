@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("barを読み込みました")})();
+(()=>{var o={717:o=>{o.exports=()=>{console.log("fooが読み込まれました")}}},r={};function t(e){var s=r[e];if(void 0!==s)return s.exports;var n=r[e]={exports:{}};return o[e](n,n.exports,t),n.exports}(()=>{"use strict";const o=t(717);console.log("barを読み込みました"),o()})()})();
