@@ -12,9 +12,9 @@ foo();
 import React from "react";
 import ReactDom from "react-dom";
 
-// コンポーネント
+// コンポーネント(JSXの構文) => babelとwebpackによってjsに変換されているため動いている！
 const App = () => {
-    return <h1>Hello!</h1>;
+    return <h1>Hello!!!!</h1>;
 };
 
 // 入れる場所
