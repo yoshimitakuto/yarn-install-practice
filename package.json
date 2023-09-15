@@ -12,6 +12,10 @@
   },
   "dependencies": {
     "jquery": "3.7.1",
-    "sass": "^1.67.0"
+    "sass": "^1.67.0",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }

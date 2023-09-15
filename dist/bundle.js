@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("barを読み込みました")})();
